@@ -1,0 +1,60 @@
+.container{
+  background-color: #ccc0c0dd;
+  width: auto;
+  height: auto;
+  margin-top: 100px;
+  border-radius: 50px;
+   
+}
+.container:hover{
+  transform: translateY(5px);
+  transform: translateX(-5px);
+  box-shadow:0 20px 50px black;
+}
+img{
+   margin-top: 30px;
+   height: 25vh;
+    width: auto;
+    border-radius: 100px;
+    
+    margin-right: 5px;
+    transition: transform .5s;
+}
+.img1:hover{
+  transform: translateY(-5px);
+  box-shadow:0 20px 20px black;
+}
+.img1:active{
+  transform: rotate(90deg);
+}
+.img2:hover{
+  transform: translateY(-5px);
+  box-shadow:0 20px 20px blue;
+}
+.img2:active{
+  transform: rotate(90deg);
+}
+.img3:hover{
+  transform: translateY(-5px);
+  box-shadow:0 20px 20px #386e38;
+}
+.img3:active{
+  transform: rotate(90deg);
+}
+button:hover{
+  transform: translateY(0px);
+  box-shadow:0 20px 20px black;
+  background-color: rgb(200,200,200,.5);
+}
+button:active{
+  transform: rotate(10deg);
+}
+.your{
+  background-color: rgb(0,100,0,.5);
+  border-radius: 40px;
+  transition: transition 1s;
+}
+.your:hover{
+  transform: translateY(-5px);
+  box-shadow:0 20px 20px  rgb(0,100,#386e38,.5);
+}
